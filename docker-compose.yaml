@@ -1,0 +1,11 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: db_postgres
+    environment:
+      POSTGRES_DB: ${YOUR_DB}
+      POSTGRES_USER: ${USERNAME}
+      POSTGRES_PASSWORD: ${USERNAME}
+    ports:
+      - "5432:5432"
+    restart: always
