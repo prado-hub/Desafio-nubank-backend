@@ -18,8 +18,8 @@ construa uma API REST para gerenciamento de clientes e seus contatos. Cada clien
 - Usar lombok ✅
 
 **Diferenciais do projeto:**
-- Uso de Docker para subir o PostgreSQL (docker-compose) 
-- Uso de Docker para empacotar a aplicação (Dockerfile)
+- Uso de Docker para subir o PostgreSQL (docker-compose) ✅
+- Uso de Docker para empacotar a aplicação (Dockerfile) ✅
 - Uso de Mappers ✅
 - Separação de responsabilidades mais elaborada ✅
 	1. ContatoController e ClienteController
